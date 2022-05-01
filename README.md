@@ -25,7 +25,6 @@ class Example extends Component {
       HTML={HTML}
       JS={JS}
       initial="CSS"
-      theme={theme}
       mobileQuery={800}
       height={300}
       themeTransitionSpeed={150}/>
@@ -51,6 +50,7 @@ All of the props are __optional__ and will not throw an error if not provided.
 |`themeTransitionSpeed`|number|`0`|How fast (in milliseconds) colors should switch from one theme to another.|
 |`resettable`|bool|`true`|How fast (in milliseconds) colors should switch from one theme to another.|
 |`mobileQuery`|number|`0`|The number (in pixels) at which the component should display for mobile.|
+|`height`|number|`350px`|Height of the container.|
 
 ## Contributing
 
