@@ -53,7 +53,6 @@
 }
 
 .codepen-editors {
-  margin-right: 15px;
   display: flex;
   flex-direction: column;
   width: 45%;
@@ -127,11 +126,12 @@
 }
 
 .codepen-textareas::-webkit-scrollbar-corner {
-    background: rgba(0,0,0,0);
-  }
+  background: rgba(0,0,0,0);
+}
 
 .codepen-results-title {
   box-sizing: border-box;
+  margin-left: 10px;
   text-transform: uppercase;
   width: 100%;
   font-family: 'DM Sans', sans-serif;
@@ -145,6 +145,7 @@
 .codepen-iframe-container {
   padding: 0 10px 10px 0px;
   height: calc(100% - 51px);
+  margin-left: 10px;
 }
 
 .codepen-iframe-container iframe {
@@ -159,17 +160,19 @@
 .codepen-editor div {
   min-height: calc(100% - 51px);
   width: max-content;
+  min-width: 100%;
   overflow-x: scroll;
 }
 
 .codepen-editor div textarea {
   outline: none;
   min-height: 100%;
+  min-width: 100%;
 }
 
 .codepen-textareas::-webkit-scrollbar,
 .codepen-editor::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
   height: 8px;
   background-color: var(--home-bottom);
 }
@@ -235,7 +238,7 @@ pre[class*='language-'] {
   color: var(--prism-base);
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1px;
   text-align: left;
   white-space: pre;
@@ -403,7 +406,7 @@ pre[class*='language-'] {
   border-top-left-radius: 3px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
   z-index: 10;
 }
 
@@ -418,7 +421,7 @@ pre {
 }
 
 code span {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 pre::-webkit-scrollbar {
