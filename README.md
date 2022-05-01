@@ -39,18 +39,18 @@ class Example extends Component {
 See it on [Github Pages](https://jobess7.github.io/react-codepen-editor/).
 
 ## Props
+All of the props are __optional__ and will not throw an error if not provided.
 
-Notes:
-
-- The tooltip sets `type: dark` `place: top` `effect: float` as **default** attributes. You don't have to add these options if you don't want to change the defaults
-- The option you set on `<ReactTooltip />` component will be implemented on every tooltip in a same page: `<ReactTooltip effect="solid" />`
-- The option you set on a specific element, for example: `<a data-type="warning"></a>` will only affect this specific tooltip
-
-|Props| Type | Default | Description|
+|Prop| Type | Default | Description|
 |-----|--|--|--|
-|HTML|string|""|The HTML code block that will be generated in the 'HTML' textarea.|
-|CSS|string|""|The CSS code block that will be generated in the 'CSS' textarea.|
-|JS|string|""|The HTML code block that will be generated in the 'HTML' textarea.|
+|`HTML`|string|`""` (an empty string)|The HTML code block that will be generated in the 'HTML' textarea.|
+|`CSS`|string|`""` (an empty string)|The CSS code block that will be generated in the 'CSS' textarea.|
+|`JS`|string|`""` (an empty string)|The HTML code block that will be generated in the 'HTML' textarea.|
+|`initial`|string|`"HTML"`|Editor that will be displayed first to the user (possible values: "HTML", "CSS", "JS").|
+|`theme`|string|`"dark"`|The color theme of the component.|
+|`themeTransitionSpeed`|number|`0`|How fast (in milliseconds) colors should switch from one theme to another.|
+|`resettable`|bool|`true`|How fast (in milliseconds) colors should switch from one theme to another.|
+|`mobileQuery`|number|`0`|The number (in pixels) at which the component should display for mobile.|
 
 ## Contributing
 
