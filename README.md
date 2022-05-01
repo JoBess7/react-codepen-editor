@@ -19,6 +19,15 @@ import CodepenEditor from "react-codepen-editor";
 import "react-codepen-editor/dist/index.css"
 
 class Example extends Component {
+
+  const CSS = `button {\n    font-size: 40px;\n    margin: 10px;\n}`;
+
+  const HTML = `<button onclick="foo()" id="btn">\n    Click me!\n</button>`;
+
+  const JS = `function foo() {
+    let btn = document.getElementById("btn");
+    btn.innerHTML = "I've been clicked!";\n}`;
+
   render() {
     return <CodepenEditor 
       CSS={CSS}
