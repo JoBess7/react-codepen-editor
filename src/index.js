@@ -20,6 +20,9 @@ const CreateDynamicStyles = (themeTransitionSpeed, mobileQuery) =>
             width: 100%;
             margin: 0;
         }
+        .codepen-textareas {
+            margin-bottom: 10px;
+        } 
         .codepen-results {
             width: 100%;
             padding: 10px 10px 6px 10px;
@@ -31,6 +34,9 @@ const CreateDynamicStyles = (themeTransitionSpeed, mobileQuery) =>
         .codepen-iframe-container {
             height: fit-content;
             padding: 0;
+        }
+        .codepen-results-title {
+            padding: 10px 0px;
         }
     }
 `

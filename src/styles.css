@@ -115,14 +115,15 @@
   box-sizing: border-box;
   height: 100%;
   overflow-y: scroll;
-  padding: 10px;
+  padding: 10px 10px 10px 0;
   margin-bottom: 10px;
+  margin-left: 10px;
   background: var(--prism-background);
 }
 
 .codepen-results {
   width: 55%;
-  height: calc(100% - 50px);
+  height: 100%;
 }
 
 .codepen-textareas::-webkit-scrollbar-corner {
@@ -130,6 +131,7 @@
   }
 
 .codepen-results-title {
+  box-sizing: border-box;
   text-transform: uppercase;
   width: 100%;
   font-family: 'DM Sans', sans-serif;
@@ -142,7 +144,7 @@
 
 .codepen-iframe-container {
   padding: 0 10px 10px 0px;
-  height: 100%;
+  height: calc(100% - 51px);
 }
 
 .codepen-iframe-container iframe {
@@ -155,8 +157,8 @@
 }
 
 .codepen-editor div {
-  min-height: calc(100% - 50px);
-  width: 100%;
+  min-height: calc(100% - 51px);
+  width: max-content;
   overflow-x: scroll;
 }
 
