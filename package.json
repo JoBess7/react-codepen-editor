@@ -1,6 +1,6 @@
 {
   "name": "react-codepen-editor",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": " ",
   "author": "JoBess7",
   "license": "MIT",
@@ -12,8 +12,8 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "build": "microbundle-crl --no-compress --no-css-modules --format modern,cjs",
+    "start": "microbundle-crl watch --no-compress --no-css-modules --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
@@ -49,5 +49,12 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "prismjs": "^1.28.0",
+    "react-icons": "^4.3.1",
+    "react-simple-code-editor": "^0.11.0",
+    "react-uuid": "^1.0.2",
+    "styled-components": "^5.3.5"
+  }
 }
