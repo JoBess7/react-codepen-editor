@@ -35,7 +35,7 @@ const App = () => {
       JS={JS}
       initial="CSS"
       mobileQuery={800}
-      height={300}
+      height="400px"
       themeTransitionSpeed={150}/>
   }
 }
@@ -59,7 +59,7 @@ All of the props are __optional__ and will not throw an error if not provided.
 |`themeTransitionSpeed`|number|`0`|How fast (in milliseconds) colors should switch from one theme to another.|
 |`resettable`|bool|`true`|How fast (in milliseconds) colors should switch from one theme to another.|
 |`mobileQuery`|number|`0`|The number (in pixels) at which the component should display for mobile.|
-|`height`|number|`350px`|Height of the container.|
+|`height`|string|`"350px"`|Height (in pixels) of the container.|
 
 ## Contributing
 
