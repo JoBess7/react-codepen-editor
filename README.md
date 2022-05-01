@@ -53,7 +53,7 @@ All of the props are __optional__ and will not throw an error if not provided.
 |-----|--|--|--|
 |`HTML`|string|`""`|The HTML code block that will be generated in the 'HTML' textarea.|
 |`CSS`|string|`""`|The CSS code block that will be generated in the 'CSS' textarea.|
-|`JS`|string|`""`|The HTML code block that will be generated in the 'HTML' textarea.|
+|`JS`|string|`""`|The JavaScript code block that will be generated in the 'JS' textarea.|
 |`initial`|string|`"HTML"`|Editor that will be displayed first to the user. Possible values: `"HTML"`, `"CSS"`, `"JS"`.|
 |`theme`|string|`"dark"`|The color theme of the component. Possible values: `"light"`, `"dark"`|
 |`themeTransitionSpeed`|number|`0`|How fast (in milliseconds) colors should switch from one theme to another.|
