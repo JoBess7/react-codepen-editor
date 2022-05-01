@@ -18,7 +18,7 @@ import React from 'react'
 import CodepenEditor from "react-codepen-editor";
 import "react-codepen-editor/dist/index.css"
 
-class Example extends Component {
+const App = () => {
 
   const CSS = `button {\n    font-size: 40px;\n    margin: 10px;\n}`;
 
