@@ -54,6 +54,7 @@ const App = () => {
 See it on [Github Pages](https://jobess7.github.io/react-codepen-editor/).
 
 ## Props
+
 All of the props are __optional__.
 
 |Prop| Type | Default | Description|
@@ -65,12 +66,16 @@ All of the props are __optional__.
 |`theme`|string|`"dark"`|The color theme of the component. Possible values: `"light"`, `"dark"`|
 |`themeTransitionSpeed`|number|`0`|How fast (in milliseconds) colors should switch from one theme to another.|
 |`resettable`|bool|`true`|How fast (in milliseconds) colors should switch from one theme to another.|
-|`mobileQuery`|number|`0`|The number (in pixels) at which the component should display for mobile.|
+|`mobileQuery`|number|`0`|The number (in pixels) at which the component should display for mobile. If the value `800` is provided, the component will be in mobile view from `0px` to `800px`|
 |`height`|string|`"350px"`|Height (in pixels) of the container.|
+
+## Styling
+
+By default, the component will take 100% of its parent width. Height can be changed via the `height` prop. For mobile support, see the `mobileQuery` prop. 
 
 ## Contributing
 
-We welcome your contribution! Fork the repo, make some changes, submit a pull-request!
+We welcome your contribution! Fork the repo, make some changes, submit a pull-request! If there are any issues with the component, let us know via `Issues`.
 
 ## Maintainers
 
