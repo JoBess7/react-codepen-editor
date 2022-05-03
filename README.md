@@ -15,7 +15,7 @@ npm install --save react-codepen-editor
 - Dark & light themes 🌗
 - Smooth transitions between themes 🌊
 - Resettable codepen 🔄
-- Code highlighting (more themes coming soon) 🏳️‍🌈
+- Code highlighting (more colors coming soon) 🏳️‍🌈
 
 ## Usage
 
