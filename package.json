@@ -1,6 +1,6 @@
 {
   "name": "react-codepen-editor",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": " ",
   "author": "JoBess7",
   "license": "MIT",
@@ -11,6 +11,7 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": ["react", "codepen", "editor", "codepen-editor", "javascript", "code-highlight", "code"],
   "scripts": {
     "build": "microbundle-crl --no-compress --no-css-modules --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --no-css-modules --format modern,cjs",
