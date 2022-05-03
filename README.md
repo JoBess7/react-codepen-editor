@@ -10,6 +10,13 @@
 npm install --save react-codepen-editor
 ```
 
+## Features
+- Excellent mobile support 📱
+- Dark & light themes 🌗
+- Smooth transitions between themes 🌊
+- Resettable codepen 🔄
+- Code highlighting (more themes coming soon) 🏳️‍🌈
+
 ## Usage
 
 ```jsx
@@ -47,7 +54,7 @@ const App = () => {
 See it on [Github Pages](https://jobess7.github.io/react-codepen-editor/).
 
 ## Props
-All of the props are __optional__ and will not throw an error if not provided.
+All of the props are __optional__.
 
 |Prop| Type | Default | Description|
 |-----|--|--|--|
