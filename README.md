@@ -63,10 +63,10 @@ All of the props are __optional__.
 |`CSS`|string|`""`|The CSS code block that will be generated in the 'CSS' textarea.|
 |`JS`|string|`""`|The JavaScript code block that will be generated in the 'JS' textarea.|
 |`initial`|string|`"HTML"`|Editor that will be displayed first to the user. Possible values: `"HTML"`, `"CSS"`, `"JS"`.|
-|`theme`|string|`"dark"`|The color theme of the component. Possible values: `"light"`, `"dark"`|
+|`theme`|string|`"dark"`|The color theme of the component. Possible values: `"light"`, `"dark"`.|
 |`themeTransitionSpeed`|number|`0`|How fast (in milliseconds) colors should switch from one theme to another.|
 |`resettable`|bool|`true`|If the codepen is resettable or not.|
-|`mobileQuery`|number|`0`|The number (in pixels) at which the component should display for mobile. If the value `800` is provided, the component will be in mobile view from `0px` to `800px`|
+|`mobileQuery`|number|`0`|The number (in pixels) at which the component should display for mobile. If the value `800` is provided, the component will be in mobile view from `0px` to `800px`.|
 |`height`|string|`"350px"`|Height (in pixels) of the container.|
 
 ## Styling
